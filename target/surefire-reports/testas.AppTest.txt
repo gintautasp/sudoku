@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: testas.AppTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.396 s <<< FAILURE! - in testas.AppTest
+masyvuTestas(testas.AppTest)  Time elapsed: 0.008 s  <<< FAILURE!
+org.junit.internal.ArrayComparisonFailure: nesutampa a ir b: arrays first differed at element [7]; expected:<8> but was:<7>
+	at testas.AppTest.masyvuTestas(AppTest.java:52)
+
+treciasTestas(testas.AppTest)  Time elapsed: 0 s  <<< FAILURE!
+org.junit.ComparisonFailure: nesutampa a ir b eilutes expected:<[l]abas jUnit pasauli> but was:<[L]abas jUnit pasauli>
+	at testas.AppTest.treciasTestas(AppTest.java:41)
+
+kitasTestas(testas.AppTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: nesutampa a ir b reiksmes expected:<10.40008> but was:<10.40004>
+	at testas.AppTest.kitasTestas(AppTest.java:29)
+
